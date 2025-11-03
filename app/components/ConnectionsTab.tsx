@@ -64,7 +64,9 @@ export default function ConnectionsTab({ connections, milestones, birthDate }: C
                 backgroundColor: milestone.color + '20',
                 color: milestone.color,
                 borderLeft: `4px solid ${milestone.color}`,
-                ringColor: milestone.color
+                ...(selectedMilestones.includes(milestone.description) && {
+                  ['--tw-ring-color' as any]: milestone.color
+                })
               }}
             >
               {milestone.description}

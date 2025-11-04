@@ -44,7 +44,7 @@ export function parseConnections(csvText: string): Connection[] {
     }
   }
   
-  return connections.sort((a, b) => b.connectedDate.getTime() - a.connectedDate.getTime());
+  return connections.sort((a, b) => a.connectedDate.getTime() - b.connectedDate.getTime());
 }
 
 export function parseConnectionDate(dateStr: string): Date {

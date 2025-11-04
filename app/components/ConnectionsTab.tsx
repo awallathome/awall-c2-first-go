@@ -41,7 +41,7 @@ export default function ConnectionsTab({ connections, milestones, birthDate }: C
     });
     
     return groups.sort((a, b) => 
-      b.milestone.dateObj.getTime() - a.milestone.dateObj.getTime()
+      a.milestone.dateObj.getTime() - b.milestone.dateObj.getTime()
     );
   }, [connections, milestones, selectedMilestones]);
   

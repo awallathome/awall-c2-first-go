@@ -4027,3 +4027,15 @@ Your changes are committed and ready to push to Vercel! The historical connectio
 
 ---
 
+_**User (2025-11-04 10:24Z)**_
+
+On the milestones tab, I would like the milestones categories to be collapsable so that when I click on them, the list of connectsions will appear to collapse into the milestone. Then when I click on them again, the connections become visible again. It would be nice if the collapsing behavior had a professional look to it. 
+
+---
+
+_**Agent (model claude-4.5-sonnet-thinking, mode Agent)**_
+
+
+
+---
+
